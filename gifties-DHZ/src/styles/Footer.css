@@ -1,0 +1,81 @@
+.footer {
+  width: 100vw;
+  background-color: #f3e5f5; /* Violet clair */
+  padding: 2rem 2rem 1rem; /* Réduit la hauteur */
+  margin-top: auto;
+}
+
+.footer-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem; /* Réduit l'espacement */
+}
+
+.footer-section {
+  flex: 1;
+}
+
+.footer-section h3 {
+  color: #9c27b0; /* Violet plus foncé pour le contraste */
+  margin-bottom: 1rem; /* Réduit la marge */
+  font-size: 1.1rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.footer-section p {
+  line-height: 1.5;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-section a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.footer-section a:hover {
+  color: #9c27b0;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-icons a {
+  color: #9c27b0;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #e6a8d7;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e1bee7;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
